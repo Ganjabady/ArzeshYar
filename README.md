@@ -1,6 +1,6 @@
 # ArzeshYar ⭐
 
-> پرکننده خودکار فرم ارزشیابی دانشگاه آزاد - ساخته شده توسط حسین حوت
+> پرکننده خودکار فرم ارزشیابی دانشگاه آزاد - ساخته شده توسط حسین حوت گنج آبادی
 
 [![GitHub](https://img.shields.io/badge/GitHub-@Ganjabady-181717?style=flat&logo=github)](https://github.com/Ganjabady)
 [![Website](https://img.shields.io/badge/Website-Ganjabady.ir-6C63FF?style=flat&logo=google-chrome)](https://ganjabady.ir)
