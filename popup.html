@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hossein Auto Filler</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      width: 260px;
+      font-family: 'Tahoma', 'Vazir', sans-serif;
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      padding: 16px;
+      border-radius: 12px;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      border-radius: 16px;
+      padding: 20px 16px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 18px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
+
+    .header h3 {
+      color: #fff;
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      margin-bottom: 4px;
+    }
+
+    .header .subtitle {
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 11px;
+      direction: ltr;
+      font-weight: 300;
+    }
+
+    .header .subtitle a {
+      color: #a78bfa;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .header .subtitle a:hover {
+      color: #c4b5fd;
+    }
+
+    .rating-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin: 12px 0 16px 0;
+    }
+
+    .btn {
+      width: 100%;
+      padding: 10px 0;
+      border: none;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-family: 'Tahoma', 'Vazir', sans-serif;
+      letter-spacing: 0.3px;
+    }
+
+    .btn:hover {
+      transform: scale(1.02);
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .btn:active {
+      transform: scale(0.98);
+    }
+
+    .btn-very-good {
+      background: linear-gradient(135deg, #10b981, #059669);
+      color: #fff;
+    }
+
+    .btn-good {
+      background: linear-gradient(135deg, #34d399, #10b981);
+      color: #fff;
+    }
+
+    .btn-medium {
+      background: linear-gradient(135deg, #fbbf24, #f59e0b);
+      color: #1f2937;
+    }
+
+    .btn-acceptable {
+      background: linear-gradient(135deg, #fb923c, #f97316);
+      color: #fff;
+    }
+
+    .btn-weak {
+      background: linear-gradient(135deg, #f87171, #ef4444);
+      color: #fff;
+    }
+
+    .footer {
+      text-align: center;
+      padding-top: 12px;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .footer p {
+      color: rgba(255, 255, 255, 0.3);
+      font-size: 10px;
+      direction: ltr;
+      font-weight: 300;
+    }
+
+    .footer .heart {
+      color: #ef4444;
+    }
+
+    .footer .brand {
+      color: rgba(255, 255, 255, 0.5);
+      font-weight: 500;
+      font-size: 11px;
+      direction: rtl;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h3>⭐ iau Filler</h3>
+      <div class="subtitle">
+        <a href="https://ganjabady.ir" target="_blank">Ganjabady.ir</a> • v2.0
+      </div>
+    </div>
+
+    <div class="rating-grid">
+      <button id="very-good" class="btn btn-very-good">🌟 خیلی خوب</button>
+      <button id="good" class="btn btn-good">✅ خوب</button>
+      <button id="medium" class="btn btn-medium">📊 متوسط</button>
+      <button id="acceptable" class="btn btn-acceptable">⚠️ قابل قبول</button>
+      <button id="weak" class="btn btn-weak">❌ ضعیف</button>
+    </div>
+
+    <div class="footer">
+      <p class="brand">ساخته شده با <span class="heart">❤️</span> توسط <strong>حسین حوت</strong></p>
+      <p>@Ganjabady • github.com/Ganjabady</p>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

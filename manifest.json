@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "iau Auto Filler",
+  "version": "2.0",
+  "description": "پرکننده خودکار فرم ارزشیابی دانشگاه آزاد - ساخته شده توسط حسین حوت",
+  "permissions": ["activeTab", "scripting"],
+  "author": "Hossein Hoot Ganjabady",
+  "homepage_url": "https://ganjabady.ir",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
